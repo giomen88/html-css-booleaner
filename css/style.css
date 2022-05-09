@@ -1,7 +1,6 @@
-div{
+#container{
     width: 800px;
     margin: 0 auto;
-
 }
 
 header{
@@ -10,9 +9,76 @@ header{
     background-size: contain;
     height: 100px;
 }
-
-img {
+#logo {
     width: 200px;
     height: 80px;
     padding-top: 30px;
+}
+
+.informazioni, #other-pages {
+    color: rgb(139, 139, 139);
+}
+
+#autore{
+    color: deepskyblue;
+}
+
+#data{
+    font-size: 10px;
+}
+figure{
+    margin-left: 0;
+}
+
+#tim1{
+    width: 400px;
+    height: 250px;
+}
+
+#tim2{
+    width: 350px;
+    height: 250px;
+}
+
+figcaption{
+    font-size: 10px;
+}
+
+thead{
+    background-color: rgb(92, 166, 239);
+    text-align: left;
+    color: white;
+}
+
+.color{
+    background-color: lightblue;
+}
+
+.first, .second{
+    width: 200px;
+}
+
+.third{
+    width: 400px;
+}
+
+table{
+border-collapse: collapse;
+}
+
+#link1{
+    background-image: url(../img/monitor.jpg);
+    width: 200px;
+    height: 200px;
+}
+
+#link2{
+    background-image: url(../img/graph.jpg);
+    width: 200px;
+    height: 200px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
 }
