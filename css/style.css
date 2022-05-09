@@ -68,17 +68,21 @@ border-collapse: collapse;
 
 #link1{
     background-image: url(../img/monitor.jpg);
-    width: 200px;
+    width: 300px;
     height: 200px;
+    margin-bottom: 5px;
 }
 
 #link2{
     background-image: url(../img/graph.jpg);
-    width: 200px;
+    width: 300px;
     height: 200px;
 }
 
 a{
     color: white;
     text-decoration: none;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
 }
